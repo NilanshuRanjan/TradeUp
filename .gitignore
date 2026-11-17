@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Build outputs
+dist/
+build/
+coverage/
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+*.apk
+*.aab
+*.ipa
+
+# React Native / Metro
+.expo/
+.expo-shared/
+.cache/
+metro-cache/
+tmp/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+.idea/
+
+# Misc
+*.orig
+*.rej
